@@ -18,7 +18,7 @@ namespace ServiceBusAutomation.Models
         public string Phone { get; set; }
 
         [Required]
-        public string Address { get; set; }
+        public string HomeAddress { get; set; }
 
         public string Boarding { get; set; }
     }

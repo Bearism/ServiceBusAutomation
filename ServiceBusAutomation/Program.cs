@@ -2,11 +2,13 @@
 using Microsoft.Extensions.DependencyInjection;
 using ServiceBusAutomation.Data;
 using ServiceBusAutomation.Middlewares;
+using System;
 
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddMvc();
 builder.WebHost.UseUrls("http://192.168.2.122:5078");
+builder.Services.AddDbContext<ServiceBusAutomationContext>(o => o.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowOrigin",

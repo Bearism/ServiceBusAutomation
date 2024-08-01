@@ -11,12 +11,5 @@ namespace ServiceBusAutomation.Controllers
         {
             return View();
         }
-        [HttpGet]
-        public IActionResult Employee()
-        {
-            ServiceBusAutomationContext db = new ServiceBusAutomationContext();
-            var empList = db.Employees.ToList();
-            return Json(empList);
-        }
     }
 }

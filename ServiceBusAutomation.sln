@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceBusAutomation", "ServiceBusAutomation\ServiceBusAutomation.csproj", "{A5241751-E376-44C2-BE50-264A015DAB28}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hafta10ASPNet.WebAPI", "..\..\..\..\İndirilenler\H15WebApi\H15WebApi\Hafta10ASPNet\Hafta10ASPNet.WebAPI\Hafta10ASPNet.WebAPI.csproj", "{8834CB05-99BA-4FA0-889D-56A4B74A5187}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A5241751-E376-44C2-BE50-264A015DAB28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5241751-E376-44C2-BE50-264A015DAB28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5241751-E376-44C2-BE50-264A015DAB28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8834CB05-99BA-4FA0-889D-56A4B74A5187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8834CB05-99BA-4FA0-889D-56A4B74A5187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8834CB05-99BA-4FA0-889D-56A4B74A5187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8834CB05-99BA-4FA0-889D-56A4B74A5187}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
